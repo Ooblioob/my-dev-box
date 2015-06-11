@@ -39,3 +39,4 @@ Berksfile.lock
 Vagrantfile
 .vagrant/
 vagrant.yml
+.idea/
