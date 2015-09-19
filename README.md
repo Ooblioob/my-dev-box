@@ -104,3 +104,10 @@ Change guestpath on your VM (default is /vagrant_data)
 ```
 ruby config_vagrant.rb -g <absolute-path>
 ```
+
+## Troubleshooting
+```
+An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue.
+Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
+```
+Try updating the versions of Virtualbox and Vagrant to the latest.  
