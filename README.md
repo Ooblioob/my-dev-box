@@ -24,14 +24,13 @@ Clone the repo
 git clone git@github.com:excellaco/my-dev-box.git
 ```
 
-Update the host's local project path to share with the vm, e.g. a web app you're developing locally on the host machine. Creates `vagrant.yml` file and
-creates the `Vagrantfile` from `Vagrantfile.example`.
+Next, run the `config_vagrant.rb` ruby script as shown below. Include the path to your local project, i.e. where you'll be developing your code, as an absolute path.  This script will generate a `vagrant.yml` file and copy `Vagrantfile` from `Vagrantfile.example`.
 
 ```ruby
 ruby config_vagrant.rb -l /changeme-absolute-path-to-proj-dir
 ```
 
-Stand it up
+Now start the virtual machine
 
 ```
 vagrant up
